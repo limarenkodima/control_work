@@ -20,7 +20,7 @@ public class Knight extends ChessPiece implements CaptureUponAdvance {
     }
 
     /**
-     * Knights move in an ‘L’ shape’: two squares in a horizontal or vertical direction, then move one square
+     * Knights move in an 'L' shape': two squares in a horizontal or vertical direction, then move one square
      * horizontally or vertically. They are the only piece able to jump over other pieces.
      * @param chessBoard Must be non-null.
      * @param proposedMove Must be non-null and properly populated.
